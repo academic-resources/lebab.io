@@ -16,7 +16,6 @@ $control-side-distance: 10px;
 }
 
 .mac {
-
   &.window {
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.36);
   }
@@ -31,7 +30,9 @@ $control-side-distance: 10px;
 
   // UI elements in the title bar are collectively refered
   // to here as "controlls".
-  .close, .minimize, .zoom {
+  .close,
+  .minimize,
+  .zoom {
     height: $control-height;
     width: $control-height;
     border-radius: $control-height / 2;

@@ -1,12 +1,12 @@
-$green: #A6E22A;
-$blue: #84D7EC;
-$yellow: #E6DB74;
-$magenta: #F92672;
-$greylight: #E6E6E6;
+$green: #a6e22a;
+$blue: #84d7ec;
+$yellow: #e6db74;
+$magenta: #f92672;
+$greylight: #e6e6e6;
 $original: #eee;
 $background: #383830;
 $grey: #595959;
-$violet: #AE81FF;
+$violet: #ae81ff;
 
 .highlight {
   font-size: 12px;
@@ -18,22 +18,58 @@ $violet: #AE81FF;
     font-size: 16px;
     color: $greylight;
   }
-  .c, .cm, .cp, .c1, .cs { /* comment */
+  .c,
+  .cm,
+  .cp,
+  .c1,
+  .cs {
+    /* comment */
     color: $grey;
   }
-  .k, .kc, .kd, .kn, .kp, .kr, .kt, .o, .nt { /* key word*/
+  .k,
+  .kc,
+  .kd,
+  .kn,
+  .kp,
+  .kr,
+  .kt,
+  .o,
+  .nt {
+    /* key word*/
     color: $magenta;
   }
-  .m, .mf, .mh, .mi, .mo { /*number*/
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo {
+    /*number*/
     color: $violet;
   }
-  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { /*string*/
+  .s,
+  .sb,
+  .sc,
+  .sd,
+  .s2,
+  .se,
+  .sh,
+  .si,
+  .sx,
+  .sr,
+  .s1,
+  .ss {
+    /*string*/
     color: $yellow;
   }
-  .nf, .na, .nc {
+  .nf,
+  .na,
+  .nc {
     color: $green;
   }
-  .css .k, .nb, .kd, .n {
+  .css .k,
+  .nb,
+  .kd,
+  .n {
     font-style: italic;
     color: $blue;
   }
